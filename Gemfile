@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#stock
+gem 'stock_quote'
 #twitter bootstrap
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
