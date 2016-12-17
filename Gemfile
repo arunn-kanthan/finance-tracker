@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
-
-#stock
-gem 'stock_quote'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.2.5'
+#devise gem
+gem 'devise'
 #twitter bootstrap
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
-#devise gem
-gem 'devise'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+#stock
+gem 'stock_quote'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
