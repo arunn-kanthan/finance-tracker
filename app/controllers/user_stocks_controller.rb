@@ -65,14 +65,14 @@ class UserStocksController < ApplicationController
         format.json { render json: @user_stock.errors, status: :unprocessable_entity }
       end
     end
-  end
+  end 
 
   # DELETE /user_stocks/1
   # DELETE /user_stocks/1.json
   def destroy
     @user_stock.destroy
     respond_to do |format|
-      format.html { redirect_to user_stocks_url, notice: 'User stock was successfully destroyed.' }
+      format.html { redirect_to my_portfolio_path, notice: 'Stock was successfully removed from protfolio.' }
       format.json { head :no_content }
     end
   end
