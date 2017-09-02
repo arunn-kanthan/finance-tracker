@@ -1,3 +1,6 @@
+Rowan University Fall 2016
+Advanced Programming Workshop - Ruby
+
 This is the repository for the first finance-tracker app of The Complete Ruby on Rails Developer Course.
 This is the finance tracker app from the Complete Ruby on Rails Developer course.
 https://acftfall2016.herokuapp.com
